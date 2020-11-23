@@ -28,6 +28,8 @@ sh build-images.sh
 
 ## Apply Kubernetes Configuration
 
+Apply the k8s configuration, replica scale can be modified for demonstration purposes.
+
 ```shell script
 kubectl apply -f deployment.yaml
 ```

@@ -16,5 +16,5 @@ echo "
 Created Images:
 
 local/frontend        => Client-side application
-local/presentation    => Presentation layer
+local/presentation-layer    => Presentation layer
 "
