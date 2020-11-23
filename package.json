@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "This demonstrates Dynatrace used with Kubernetes",
   "main": "index.js",
-  "dependencies": {
-    "classnames": "^2.2.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "concurrently": "^5.3.0",
     "husky": "^4.3.0",

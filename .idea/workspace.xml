@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35c4ac5-150c-4c76-b750-8aa45cbb8a52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/presentation-layer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/presentation-layer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-images.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Shell Script" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +65,7 @@
       <workItem from="1606149206421" duration="307000" />
       <workItem from="1606149561037" duration="6738000" />
       <workItem from="1606157474314" duration="6816000" />
-      <workItem from="1606165542910" duration="2748000" />
+      <workItem from="1606165542910" duration="3923000" />
     </task>
     <servers />
   </component>
@@ -71,13 +77,17 @@
       <screen x="0" y="25" width="3008" height="1667" />
     </state>
     <state x="1966" y="664" key="#com.intellij.fileTypes.FileTypeChooser/3008.917.1229.775/0.25.3008.1667@0.25.3008.1667" timestamp="1606149975405" />
-    <state x="1765" y="494" key="SettingsEditor" timestamp="1606149598378">
+    <state x="1765" y="494" key="SettingsEditor" timestamp="1606168423190">
       <screen x="0" y="25" width="3008" height="1667" />
     </state>
-    <state x="1765" y="494" key="SettingsEditor/3008.917.1229.775/0.25.3008.1667@0.25.3008.1667" timestamp="1606149598378" />
+    <state x="1765" y="494" key="SettingsEditor/3008.917.1229.775/0.25.3008.1667@0.25.3008.1667" timestamp="1606168423190" />
     <state x="1957" y="491" width="597" height="735" key="find.popup" timestamp="1606150449504">
       <screen x="0" y="25" width="3008" height="1667" />
     </state>
     <state x="1957" y="491" width="597" height="735" key="find.popup/3008.917.1229.775/0.25.3008.1667@0.25.3008.1667" timestamp="1606150449504" />
+    <state x="1921" y="412" width="670" height="676" key="search.everywhere.popup" timestamp="1606168412262">
+      <screen x="0" y="25" width="3008" height="1667" />
+    </state>
+    <state x="1921" y="412" width="670" height="676" key="search.everywhere.popup/3008.917.1229.775/0.25.3008.1667@0.25.3008.1667" timestamp="1606168412262" />
   </component>
 </project>

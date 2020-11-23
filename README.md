@@ -4,15 +4,33 @@ This demo repository demonstrates [Dynatrace](https://www.dynatrace.com) used wi
 
 # Setup
 
-## Install dependencies
+## Prerequisites
 
-From the project root
+You'll need [Docker](https://www.docker.com/products/docker-desktop) installed to use this demo.
+You'll also need to enable the built-in Kubernetes cluster.
+
+## Install Project Dependencies
+
+Run from the project root. This will install dependencies for each service.
 
 ```shell script
 npm install
 ```
 
-Will install dependencies for each service
+## Build docker images
+
+There are several images that need to be built.
+Build them all by running:
+
+```shell script
+sh build-images.sh
+```
+
+## Apply Kubernetes Configuration
+
+```shell script
+kubectl apply -f deployment.yaml
+```
 
 ## Kubernetes Web UI
 
