@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This demo repository demonstrates [Dynatrace](https://www.dynatrace.com) used with [Kubernetes](https://kubernetes.io)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
   "devDependencies": {
     "concurrently": "^5.3.0",
     "husky": "^4.3.0",
@@ -13,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "sh install.sh",
-    "start:dev": "concurrently -k -n frontend,presentation \"npm start --prefix ./frontend\" \"npm start --prefix ./presentation-layer\"",
+    "start:dev": "concurrently -k -n frontend,presentation \"npm start --prefix ./frontend\" \"npm run start:dev --prefix ./presentation-layer\"",
     "prettier": "prettier .",
     "prettier:check": "npm run prettier -- --check",
     "prettier:write": "npm run prettier -- --write"
