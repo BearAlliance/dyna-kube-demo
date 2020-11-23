@@ -1,14 +1,13 @@
-FROM node:12
-
-WORKDIR /usr/var
-
+FROM node:14-alpine
+WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
 
+ENV NODE_ENV=production
 RUN npm ci
 
-COPY .. .
+COPY . .
 
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["npm", "start"]
