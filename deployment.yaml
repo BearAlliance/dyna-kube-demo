@@ -9,7 +9,7 @@ spec:
     - port: 3000
       protocol: TCP
   selector:
-    app: nodejs-1
+    app: presentation-layer
   type: LoadBalancer
 ---
 apiVersion: apps/v1
@@ -17,20 +17,20 @@ kind: Deployment
 metadata:
   name: nodejs-consumer
   labels:
-    app: nodejs-1
+    app: presentation-layer
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: nodejs-1
+      app: presentation-layer
   template:
     metadata:
       labels:
-        app: nodejs-1
+        app: presentation-layer
     spec:
       containers:
-        - name: node-server-1
-          image: node-server-1
+        - name: presentation-layer
+          image: presentation-layer
           imagePullPolicy: Never
           ports:
             - containerPort: 3000
