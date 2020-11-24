@@ -6,8 +6,19 @@ This demo repository demonstrates [Dynatrace](https://www.dynatrace.com) used wi
 
 ## Prerequisites
 
+### Docker / k8s
+
 You'll need [Docker](https://www.docker.com/products/docker-desktop) installed to use this demo.
 You'll also need to enable the built-in Kubernetes cluster.
+
+### Dynatrace
+
+Create two environment variables for `DYNATRACE_API_TOKEN` and `DYNATRACE_PAAS_TOKEN`
+
+Follow the docs to generate them:
+
+- [API Token](https://www.dynatrace.com/support/help/dynatrace-api/basics/dynatrace-api-authentication/)
+- [PaaS Token](https://www.dynatrace.com/support/help/reference/dynatrace-concepts/access-tokens/#anchor_paas-token)
 
 ## Install Project Dependencies
 
@@ -37,15 +48,23 @@ sh deploy-kube.sh
 
 ## Kubernetes Web UI
 
-You can optionally set up the kubernetes web UI by following [these instructions](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
-
-Once you've [created a sample user](https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md) and copied the Bearer Token, expose the web UI with:
+You can optionally set up the kubernetes web UI.
+The script will install it automatically, but you'll need to [create a sample user](https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md) and save the Bearer Token to login with.
+expose the web UI with:
 
 ```shell script
 kubectl proxy
 ```
 
 It should now be available at http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
+
+## Cleaning up
+
+This will remove all namespace, and associated pods, deployments, and ingresses
+
+```shell script
+sh cleanup.sh
+```
 
 # Development
 
