@@ -6,7 +6,7 @@ const demos = [
     title: 'Client => Presentation Layer',
     description:
       'This request only goes to the presentation layer, and does not propagate beyond that.',
-    requestUrl: '/api/single-layer',
+    requestUrl: 'single-layer',
   },
 ];
 
@@ -19,15 +19,15 @@ function Demo({ demoConfig }) {
   function handleClick() {
     setIsLoading(true);
 
-    fetch(requestUrl)
+    fetch(`${process.env.REACT_APP_API_PREFIX}${requestUrl}`)
       .then((res) => res.json())
       .then((res) => {
         setResult(res);
-        setIsLoading(false);
       })
       .catch((err) => {
         setResult(err);
-      });
+      })
+      .finally(() => setIsLoading(false));
   }
 
   return (

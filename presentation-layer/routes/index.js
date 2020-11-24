@@ -3,10 +3,18 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.json({
+    running: true,
+  });
 });
 
-router.get('/api/single-layer', function (req, res) {
+router.get('/foo', function (req, res, next) {
+  res.json({
+    foo: 'bar',
+  });
+});
+
+router.get('/single-layer', function (req, res) {
   res.json({
     success: true,
     layers: 1,
