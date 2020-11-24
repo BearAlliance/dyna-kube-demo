@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b35c4ac5-150c-4c76-b750-8aa45cbb8a52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cleanup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-kube.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-kube.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,12 +62,15 @@
       <workItem from="1606149206421" duration="307000" />
       <workItem from="1606149561037" duration="6738000" />
       <workItem from="1606157474314" duration="6816000" />
-      <workItem from="1606165542910" duration="20774000" />
+      <workItem from="1606165542910" duration="23224000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1966" y="664" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606149975405">
