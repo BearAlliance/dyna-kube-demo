@@ -12,7 +12,7 @@ spec:
   # Optional: disable certificate validation checks for installer download and API communication.
   # Disabled by default.
   #
-  # skipCertCheck: false
+  skipCertCheck: true
 
   # Optional: name of Secret holding 'apiToken' and 'paasToken'. By default, name of the Custom
   # Resource is used.
