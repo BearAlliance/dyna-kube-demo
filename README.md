@@ -69,3 +69,7 @@ npm run start:dev
 
 This will start the React app in dev mode, and the server layers with a proxy for the React app.
 They should behave the same as their containerized counterparts.
+
+# References
+
+- [nginx ingress rewrite](https://kubernetes.github.io/ingress-nginx/examples/rewrite/)
