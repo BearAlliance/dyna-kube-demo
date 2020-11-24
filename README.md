@@ -91,4 +91,11 @@ They should behave the same as their containerized counterparts.
 
 # References
 
+### Kubernetes
+
 - [nginx ingress rewrite](https://kubernetes.github.io/ingress-nginx/examples/rewrite/)
+
+### Dynatrace
+
+- [Deploy OneAgent](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/deploy-oneagent-k8/)
+- [Set up kubernetes integration](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/monitoring/monitor-kubernetes-clusters-with-dynatrace/)
